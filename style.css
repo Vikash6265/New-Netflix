@@ -1,0 +1,402 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image: url(./image.jpg);
+    padding: 20px;
+}
+nav{
+    height: 40px;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 12%;
+    margin-top: 10px;
+}
+nav img{
+    height: 50px;
+    width: 200px;
+}
+.english{
+    height:35px;
+    width:150px;
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+    border-radius: 5px;
+}
+nav span button{
+    height: 35px;
+    width: 100px;
+    color:white;
+    background-color: red;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+#btn{
+    height: 35px;
+    width: 150px;
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 5px;
+    display: none;
+}
+.text-part{
+    height:auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 150px;
+}
+.text-part h1{
+    font-size: 40px;
+    color: white;
+}
+.text-part p,h6{
+    font-size: 25px;
+    color: white;
+    margin-top: 20px;
+}
+.text-part span{
+    margin-top: 20px;
+}
+.text-part span input{
+    height: 50px;
+    width: 400px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: rgba(43, 25, 39, 0.814);
+    padding-left: 20px;
+}
+.text-part span button{
+    height: 50px;
+    width: 150px;
+    color: white;
+    background-color: red;
+    border:none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.line{
+    height: 14px;
+    width: 100%;
+    background-color: rgba(56,55,55);
+}
+.tv-section{
+    height: 400px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+}
+.left-section{
+    height: auto;
+    width: 50%;
+    color: white;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.left-section h1{
+    font-size: 40px;
+    font-weight: 100;
+}
+.text-part1 h6{
+    font-size: 20px;
+    font-weight: 10;
+}
+.right-section{
+    height: auto;
+    width: 50%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right-section img{
+    width: 400px;
+}
+.faq-section{
+    height: auto;
+    width:100%;
+    background-color: black;
+    padding-block: 50px;
+}
+.faq-section h1{
+    color:white;
+    font-size: 30px;
+    text-align: center;
+}
+.faq-part{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-block: 20px;
+    align-items: center;
+    flex-direction: column;
+}
+.box span{
+    height: auto;
+    width: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-block: 20px;
+    padding-inline: 20px;
+}
+.box:hover{
+    background-color: gray;
+}
+.box{
+    height: 70px;
+    width: 900px;
+    background-color: rgb(60, 53, 53);
+    margin-top: 20px;
+}
+.down{
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding-block: 25px;
+}
+.down p{
+    font-size: 25px;
+    color: white;
+}
+.down button{
+    height: 50px;
+    width:450px;
+    color: white;
+    border-radius: 5px;
+    background-color: black;
+    border: 1px solid white;
+    text-align: start;
+    padding-left: 20px;
+    margin-top: 15px;
+}
+#start{
+    height: 50px;
+    width:180px;
+    margin-top: 10px;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+.footer{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    padding-block: 20px;
+    padding-inline:80px
+}
+.footer p{
+    color: white;
+    margin-left: 5%;
+}
+.footer-part{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-block: 50px;
+}
+.footer-part ul{
+    list-style: none;
+}
+.footer-part ul li a{
+    color: white;
+}
+.footer-part ul li{
+    margin-top: 10px;
+}
+.footer button{
+    width: 120px;
+    margin-left: 5%;
+    height: 35px;
+    background-color:black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.footer-part-2{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding-block: 50px;
+}
+.footer-part-2 ul{
+    list-style: none;
+}
+.footer-part-2 ul li{
+    margin-top: 10px;
+}
+.footer-part-2 ul li a{
+    color: white;
+}
+.footer-part-2{
+    display: none;
+}
+.india{
+    color: white;
+    margin-top: 15px;
+}
+@media (max-width:768px) {
+    .container{
+        height: auto;
+        width: 100%;
+    }
+    nav{
+        height: auto;
+        width: 100%;
+    }
+    nav img{
+        width:150px;
+        height: 40px;
+    }
+    .english{
+        display: none;
+    }
+    nav span button{
+        width:90px;
+    }
+    .text-part{
+        height: auto;
+        width: 100%;
+    }
+    .text-part h1{
+        font-size: 35px;
+        text-align: center;
+    }
+    .text-part p,h6{
+        font-size: 20px;
+        text-align: center;
+    }
+    .text-part span{
+        height: auto;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .text-part span input{
+        width: 350px;
+    }
+    .text-part span button{
+        width:150px;
+        margin-top: 10px;
+    }
+    #btn{
+        display: inline;
+        width:80px;
+    }
+    .line{
+        height: 25px;
+        width: 100%;
+    }
+    .tv-section{
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+        padding-top: 20px;
+    }
+    .left-section{
+        width: 100%;
+        height: auto;
+    }
+    .text-part1 h6{
+        font-size: 15px;
+        font-weight: 30;
+    }
+    .right-section{
+        width:100%;
+        height: auto;
+    }
+    .right-section img{
+        width: 300px;
+    }
+    .left-section h1{
+        text-align: center;
+        font-size:35px;
+        font-weight: 80;
+    }
+    .faq-section{
+        height: auto;
+        width: 100%;
+    }
+    .faq-section h1{
+        height: 20px;
+        width:90%;
+    }
+    .faq-part{
+        height: auto;
+        width: 100%;
+        padding-top: 50px;
+    }
+    .box span{
+        height: auto;
+        width: 100%;
+    }
+    .box{
+        height: 70px;
+        width: 420px;
+    }
+    .down{
+        height: auto;
+        width: 100%;
+        
+    }
+    .down p{
+        font-size: 20px;
+        text-align: center;
+    }
+    .down span{
+        height: auto;
+        width: 100%;
+        display: flex;
+        align-items:center;
+        flex-direction: column;
+    }
+    .down button{
+        height: 45px;
+        width: 390px;
+        
+    }
+    #start{
+        height: 45px;
+        width: 120px;
+    }
+    .footer{
+        width: 100%;
+        height: auto;
+    }
+    .footer-part{
+        display: none;
+    }
+    .footer-part-2{
+        display: flex;
+    }
+}
